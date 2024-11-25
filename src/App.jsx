@@ -7,6 +7,8 @@ import Moon from "./pages/destinations/Moon";
 import Mars from "./pages/destinations/Mars";
 import Europa from "./pages/destinations/Europa";
 import Titan from "./pages/destinations/Titan";
+import Commander from "./pages/crew/Commander";
+import MissionSpecialist from "./pages/crew/MissionSpecialist";
 
 export default function App() {
   return (
@@ -22,7 +24,10 @@ export default function App() {
             <Route path="europa" element={<Europa />} />
             <Route path="titan" element={<Titan />} />
           </Route>
-          <Route path="crew" element={<CrewLayout />}></Route>
+          <Route path="crew" element={<CrewLayout />}>
+            <Route index element={<Commander />} />
+            <Route path="specialist" element={<MissionSpecialist />} />
+          </Route>
         </Routes>
       </Router>
     </div>
