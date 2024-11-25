@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
 import DestinationLayout from "./components/DestinationLayout";
+import CrewLayout from "./components/CrewLayout";
+import Home from "./pages/Home";
 import Moon from "./pages/destinations/Moon";
 import Mars from "./pages/destinations/Mars";
 import Europa from "./pages/destinations/Europa";
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="europa" element={<Europa />} />
             <Route path="titan" element={<Titan />} />
           </Route>
+          <Route path="crew" element={<CrewLayout />}></Route>
         </Routes>
       </Router>
     </div>
