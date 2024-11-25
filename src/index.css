@@ -56,14 +56,4 @@
 .sidebar NavLink {
   color: white;
   text-decoration: none;
-  font-size: 18px;
-}
-
-.sidebar NavLink:hover {
-  background-color: #444;
-}
-
-.sidebar span {
-  margin-right: 20px;
-  opacity: 0.5;
 }
