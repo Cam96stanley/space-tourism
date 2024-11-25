@@ -1,4 +1,4 @@
-import specialistImg from "../../../public/crew/image-mark-shuttleworth.png";
+import specialistImg from "../../assets/crew/image-victor-glover.png";
 
 export default function MissionSpecialist() {
   return (

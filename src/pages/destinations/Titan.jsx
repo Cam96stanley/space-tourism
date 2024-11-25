@@ -1,4 +1,4 @@
-import titanImg from "../../../public/destination/image-titan.png";
+import titanImg from "../../assets/destination/image-titan.png";
 
 export default function Titan() {
   return (

@@ -1,4 +1,4 @@
-import launchImg from "../../../public/technology/image-launch-vehicle-portrait.jpg";
+import launchImg from "../../assets/technology/image-launch-vehicle-portrait.jpg";
 
 export default function LauchVehicle() {
   return (

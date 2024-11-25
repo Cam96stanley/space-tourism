@@ -4,7 +4,7 @@ import Header from "./Header";
 export default function TechLayout() {
   const techbg = {
     backgroundImage:
-      "url('../../public/technology/background-technology-mobile.jpg')",
+      "url('../assets/technology/background-technology-mobile.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundAttachment: "fixed",

@@ -10,7 +10,7 @@ export default function Destination() {
   };
   const destinationbg = {
     backgroundImage:
-      "url('../../public/destination/background-destination-mobile.jpg')",
+      "url('../assets/destination/background-destination-mobile.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundAttachment: "fixed",

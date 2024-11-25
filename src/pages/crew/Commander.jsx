@@ -1,4 +1,4 @@
-import commanderImg from "../../../public/crew/image-douglas-hurley.png";
+import commanderImg from "../../assets/crew/image-douglas-hurley.png";
 
 export default function Commander() {
   return (

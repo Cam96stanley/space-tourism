@@ -1,4 +1,4 @@
-import engineerImg from "../../../public/crew/image-anousheh-ansari.png";
+import engineerImg from "../../assets/crew/image-mark-shuttleworth.png";
 
 export default function Engineer() {
   return (

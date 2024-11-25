@@ -31,10 +31,10 @@ export default function Header() {
     <>
       <div className="flex justify-between items-center p-6">
         <Link to="/">
-          <img src="../../public/shared/logo.svg" />
+          <img src="../assets/favicon-32x32.png" />
         </Link>
         <button className="hamburger" onClick={toggleSidebar}>
-          <img src="../../public/shared/icon-hamburger.svg" />
+          <img src="../assets/shared/icon-hamburger.svg" />
         </button>
       </div>
       <div

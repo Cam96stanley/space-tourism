@@ -1,4 +1,4 @@
-import capsuleImg from "../../../public/technology/image-space-capsule-portrait.jpg";
+import capsuleImg from "../../assets/technology/image-space-capsule-portrait.jpg";
 
 export default function SpaceCapsule() {
   return (

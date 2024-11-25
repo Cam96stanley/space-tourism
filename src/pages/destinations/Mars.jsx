@@ -1,4 +1,4 @@
-import marsImg from "../../../public/destination/image-mars.png";
+import marsImg from "../../assets/destination/image-mars.png";
 
 export default function Mars() {
   return (

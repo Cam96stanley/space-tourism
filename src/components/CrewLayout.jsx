@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default function CrewLayout() {
   const destinationbg = {
-    backgroundImage: "url('../../public/crew/background-crew-mobile.jpg')",
+    backgroundImage: "url('../assets/crew/background-crew-mobile.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundAttachment: "fixed",

@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default function Layout() {
   const bgStyle = {
-    backgroundImage: "url('../../public/home/background-home-mobile.jpg')",
+    backgroundImage: "url('../assets/home/background-home-mobile.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundAttachment: "fixed",

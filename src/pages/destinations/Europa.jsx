@@ -1,4 +1,4 @@
-import europaImg from "../../../public/destination/image-europa.png";
+import europaImg from "../../assets/destination/image-europa.png";
 
 export default function Europa() {
   return (

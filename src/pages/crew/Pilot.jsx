@@ -1,4 +1,4 @@
-import pilotImg from "../../../public/crew/image-victor-glover.png";
+import pilotImg from "../../assets/crew/image-anousheh-ansari.png";
 
 export default function Pilot() {
   return (
