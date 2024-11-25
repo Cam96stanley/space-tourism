@@ -4,11 +4,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body {
-  color: white;
-  background-image: url("../public/home/background-home-mobile.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
