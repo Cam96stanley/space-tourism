@@ -9,6 +9,8 @@ import Europa from "./pages/destinations/Europa";
 import Titan from "./pages/destinations/Titan";
 import Commander from "./pages/crew/Commander";
 import MissionSpecialist from "./pages/crew/MissionSpecialist";
+import Pilot from "./pages/crew/Pilot";
+import Engineer from "./pages/crew/Engineer";
 
 export default function App() {
   return (
@@ -27,6 +29,8 @@ export default function App() {
           <Route path="crew" element={<CrewLayout />}>
             <Route index element={<Commander />} />
             <Route path="specialist" element={<MissionSpecialist />} />
+            <Route path="pilot" element={<Pilot />} />
+            <Route path="engineer" element={<Engineer />} />
           </Route>
         </Routes>
       </Router>

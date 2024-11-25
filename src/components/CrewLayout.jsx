@@ -40,14 +40,14 @@ export default function CrewLayout() {
             II
           </NavLink>
           <NavLink
-            to="#"
+            to="pilot"
             style={({ isActive }) => (isActive ? activeStyle : null)}
             className="mr-8 hover:border-b-2 hover:opacity-50 hover:text-white"
           >
             III
           </NavLink>
           <NavLink
-            to="#"
+            to="engineer"
             style={({ isActive }) => (isActive ? activeStyle : null)}
             className="hover:border-b-2 hover:opacity-50 hover:text-white"
           >
